@@ -146,6 +146,17 @@ body.hide-header .header {
     transition: all 0.3s ease;
 }
 
+.prompt__input-wrapper {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .prompt__input-wrapper {
+        margin-bottom: 50px;
+    }
+}
+
+
 .prompt__form-button:hover {
     background: #2f3030;
 }
