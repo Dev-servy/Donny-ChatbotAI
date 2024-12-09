@@ -6,7 +6,7 @@ const botaoDeLimparChats = document.getElementById("botaoLimpar");
 let mensagemUsuarioAtual = null;
 let gerandoResposta = false;
 
-const GOOGLE_API_KEY = "AIzaSyA4I9fb3CuKxcMRtURM18r2h7NAO5F0AXY";
+const GOOGLE_API_KEY = "AIzaSyCUDp9ASP3eicCOnYmaY3MNd19Z6MP0pSg";
 const API_REQUEST_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GOOGLE_API_KEY}`;
 
 
